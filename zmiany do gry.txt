@@ -1,3 +1,11 @@
 1-dodanie losowości zebrania drzewa od 1 do 3
 2-dodanie losowości mapy po kliknięciu przycisku lub klawisza r losuje się nowa runda 
-3-dodanie żyćjak wejdziesz na kamień to tracisz 1 życie a jak stracisz wszystkie to kończysz gre i zaczyna się od nowa  
+3-dodanie żyć jak wejdziesz na kamień to tracisz 1 życie a jak stracisz wszystkie to kończysz gre i zaczyna się od nowa
+4-dodanie questów 
+5-dodanie punktów za ukończenie questów 
+6-dodanie suwaka żeby czytac wszystkie questy
+7-dodanie instrukcje sterowania 
+8-dodanie wchodzenie na skały 
+8-dodanie usuwania skały od 2 poziomu
+9-dodanie ukończenia gry po zdobyciu wszykich drzew oraz pokazanie statystyk 
+10- dodanie poziomów gry

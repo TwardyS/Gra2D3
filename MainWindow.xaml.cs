@@ -204,4 +204,4 @@ namespace Gra2D
             }
         }
     }
-}
+}//ssraw

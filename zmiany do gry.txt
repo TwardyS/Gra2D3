@@ -9,3 +9,5 @@
 8-dodanie usuwania skały od 2 poziomu
 9-dodanie ukończenia gry po zdobyciu wszykich drzew oraz pokazanie statystyk 
 10- dodanie poziomów gry
+11-dodanie pelnego ekranu po wlaczeniu aplikacji 
+12-dodanie przycisku do wylaczenia aplikacji

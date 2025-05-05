@@ -386,5 +386,9 @@ namespace Gra2D
         }
 
         private void NowaRunda_Click(object sender, RoutedEventArgs e) => ResetujGre();
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

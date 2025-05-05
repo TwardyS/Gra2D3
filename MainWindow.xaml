@@ -17,13 +17,22 @@
 
         <!-- Panel statystyk -->
         <Border Grid.Row="0" Background="#FF333333" Padding="10">
-            <StackPanel Orientation="Horizontal">
-                <Label x:Name="EtykietaDrewna" Content="Drewno: 0" Foreground="White" FontWeight="Bold" Margin="10 0"/>
-                <Label x:Name="EtykietaZycia" Content="Życia: ❤❤❤❤❤" Foreground="Red" FontWeight="Bold" Margin="10 0"/>
-                <Label x:Name="EtykietaPunkty" Content="Punkty: 0" Foreground="Gold" FontWeight="Bold" Margin="10 0"/>
-                <Label x:Name="EtykietaPoziom" Content="Poziom: 1" Foreground="LightGreen" FontWeight="Bold" Margin="10 0"/>
-                <Button x:Name="NowaRunda" Content="Nowa runda" Click="NowaRunda_Click" Margin="20 0" Padding="10 5" Background="#FF555555" Foreground="White"/>
-            </StackPanel>
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="EtykietaDrewna" Content="Drewno: 0" Foreground="White" FontWeight="Bold" Margin="10 0"/>
+                    <Label x:Name="EtykietaZycia" Content="Życia: ❤❤❤❤❤" Foreground="Red" FontWeight="Bold" Margin="10 0"/>
+                    <Label x:Name="EtykietaPunkty" Content="Punkty: 0" Foreground="Gold" FontWeight="Bold" Margin="10 0"/>
+                    <Label x:Name="EtykietaPoziom" Content="Poziom: 1" Foreground="LightGreen" FontWeight="Bold" Margin="10 0"/>
+                    <Button x:Name="NowaRunda" Content="Nowa runda" Click="NowaRunda_Click" Margin="20 0" Padding="10 5" Background="#FF555555" Foreground="White"/>
+                </StackPanel>
+
+                <!-- Przycisk zamknięcia aplikacji - teraz na wierzchu i w prawym górnym rogu -->
+                <Button x:Name="CloseButton" Content="X" Click="CloseButton_Click" 
+                        HorizontalAlignment="Right" VerticalAlignment="Center"
+                        Margin="0,0,10,0" Padding="10,5" 
+                        Background="Red" Foreground="White" FontWeight="Bold"
+                        Width="30" Height="30"/>
+            </Grid>
         </Border>
 
         <!-- Mapa gry -->

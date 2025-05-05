@@ -5,6 +5,9 @@
         Height="650" 
         Width="800"
         KeyDown="OknoGlowne_KeyDown"
+        WindowState="Maximized"
+        WindowStyle="None"
+        ResizeMode="NoResize"
         Background="LightGray">
     <Grid>
         <Grid.RowDefinitions>
